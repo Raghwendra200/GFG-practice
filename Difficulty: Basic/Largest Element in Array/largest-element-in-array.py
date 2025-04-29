@@ -5,13 +5,11 @@ from typing import List
 class Solution:
     def largest(self, arr):
         # code here
-        mx=arr[0]
-        for i in range(1,len(arr)):
-            if arr[i]>mx:
-                
-                 mx=arr[i]
-        return mx        
-
+      mx = arr[0]
+      for i in range (1, len(arr)):
+          if arr[i]>mx:
+              mx= arr[i]
+      return mx        
 
 
 #{ 
